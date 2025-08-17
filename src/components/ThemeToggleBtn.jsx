@@ -31,6 +31,7 @@ const ThemeToggleBtn = ({ theme, setTheme }) => {
                         onClick={() => setTheme("dark")}
                         src={assets.moon_icon}
                         alt="Dark Mode"
+                        className="size-8.5 p-1.5 border border-gray-500 rounded-full"
                     />
                 )}
             </button>
