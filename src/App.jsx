@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
+import Services from "./components/Services";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="dark:bg-black relative">
       <NavBar theme={theme} setTheme={setTheme} />
       <Hero />
+      <Services />
       </div>
   );
 }
